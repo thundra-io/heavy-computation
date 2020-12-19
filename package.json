@@ -1,0 +1,22 @@
+{
+  "name": "heavy-computation",
+  "version": "0.1.0",
+  "bin": {
+    "heavy-computation": "bin/heavy-computation.js"
+  },
+  "scripts": {
+    "bootstrap": "cdk bootstrap",
+    "deploy": "cdk deploy"
+  },
+  "devDependencies": {
+    "aws-cdk": "1.57.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.57.0",
+    "@aws-cdk/aws-iam": "^1.57.0",
+    "@aws-cdk/aws-lambda": "^1.57.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.57.0",
+    "@aws-cdk/aws-s3": "^1.57.0",
+    "@aws-cdk/core": "1.57.0"
+  }
+}
